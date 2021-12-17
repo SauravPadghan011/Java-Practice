@@ -1,4 +1,4 @@
-package DSA_BootCamp.Arrays;
+package DSA.Arrays;
 
 public class ArrayfromPermutation {
     public int[] getConcatenation(int[] nums) {

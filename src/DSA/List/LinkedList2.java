@@ -2,7 +2,7 @@
 * Linked List with adding element to a particular position
 * */
 
-package DSA;
+package DSA.List;
 import java.util.Scanner;
 
 public class LinkedList2 {

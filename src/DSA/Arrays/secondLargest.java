@@ -1,4 +1,4 @@
-package Programs;
+package DSA.Arrays;
 import java.util.*;
 
 public class secondLargest {
