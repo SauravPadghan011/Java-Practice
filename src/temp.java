@@ -23,38 +23,26 @@ import java.util.*;
 
 public class temp {
     public static void main(String[] args) {
-        List<String> fruitsName = new ArrayList<>();
-        fruitsName.add("Apple");
-        fruitsName.add("Banana");
-        fruitsName.add("Apple");
-        fruitsName.add("Mango");
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(3);
+        list.add(1);
+        list.add(4);
+        list.add(2);
+        list.add(2);
+        list.add(4);
+        list.add(4);
+        list.add(4);
+        list.add(4);
+        list.add(2);
+        System.out.println(list);
 
-        int[] array = new int[fruitsName.size()];
-
-        for(int i=0; i< fruitsName.size(); i++) {
-            int count = 0;
-            String fruit = fruitsName.get(i);
-            for(int j=i+1; j< fruitsName.size(); j++) {
-                if(Objects.equals(fruit, fruitsName.get(j))) {
-                    count++;
-                }
-            }
-            array[i] = count;
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i<list.size(); i++) {
+            map.put(list.get(i), Collections.frequency(list, list.get(i)));
         }
 
-//        for(int i: array) {
-//            System.out.println(i+" ");
-//        }
-
-
-        for(int i=0; i< fruitsName.size(); i++) {
-            System.out.print(Collections.frequency(fruitsName, i)+" ");
-        }
-
-
-
-
-
+        System.out.println(map);
     }
 }
 
