@@ -1,4 +1,4 @@
-package TCS_Digital.Array;
+package DSA.TCS_Digital.Array;
 
 import java.util.*;
 
@@ -7,8 +7,7 @@ public class Frequency {
     public static void frequency(Integer[] arr) {
         int freq = 1, i=1;
         while(i < arr.length) {
-            while(i < arr.length && arr[i]
-                    == arr[i-1]) {
+            while(i < arr.length && arr[i] == arr[i-1]) {
                 freq++;
                 i++;
             }
@@ -24,7 +23,7 @@ public class Frequency {
     public static void main(String[] args) {
         Integer[] arr = new Integer[]{1,1,8,3,4,5,5,6,6,6,3,7};
 
-        Arrays.sort(arr);
+//        Arrays.sort(arr);
 
         frequency(arr);
 

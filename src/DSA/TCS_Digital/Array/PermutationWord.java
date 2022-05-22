@@ -1,15 +1,15 @@
-package TCS_Digital.Array;
+package DSA.TCS_Digital.Array;
 
 public class PermutationWord {
 
     public static void permutations(String word, int l, int r) {
         if(l == r) {
-            Boolean flag = false;
-            for(int i=1; i<word.length(); i++) {
-                if(word.charAt(i) == word.charAt(i-1))
-                    flag = true;
-            }
-            if(!flag)
+//            boolean flag = false;
+//            for(int i=1; i<word.length(); i++) {
+//                if(word.charAt(i) == word.charAt(i-1))
+//                    flag = true;
+//            }
+//            if(!flag)
                 System.out.print(word + " ");
         } else {
             for(int i = l; i <= r; i++) {
@@ -32,7 +32,7 @@ public class PermutationWord {
     }
 
     public static void main(String[] args) {
-        String word = "AAB";
+        String word = "WXYZ";
 
         permutations(word, 0, word.length()-1);
     }

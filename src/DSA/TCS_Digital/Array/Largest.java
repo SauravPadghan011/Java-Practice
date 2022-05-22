@@ -1,4 +1,4 @@
-package TCS_Digital.Array;
+package DSA.TCS_Digital.Array;
 
 import java.util.Arrays;
 import java.util.Collections;

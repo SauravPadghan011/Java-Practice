@@ -1,4 +1,4 @@
-package TCS_Digital;
+package DSA.TCS_Digital;
 
 import java.util.ArrayList;
 
