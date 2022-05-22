@@ -1,4 +1,4 @@
-package DSA.Basics_of_Programming.Getting_Started;
+package DSA.Nados.DSA_Level1.Basics_of_Programming.Getting_Started;
 import java.util.*;
 
 public class ReverseNumber {

@@ -1,4 +1,4 @@
-package DSA.Basics_of_Programming.Getting_Started;
+package DSA.Nados.DSA_Level1.Basics_of_Programming.Getting_Started;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class RotateNum {
             nod++;
         }
 
-        k %= nod;           // for special case. like rotate by 351 i.e rotate by 1
+        k %= nod;           // for special case. like rotate by 351 i. e rotate by 1
         if(k<0) {
             k += nod;
         }
